@@ -1,0 +1,37 @@
+{
+  "name": "grunt-cssmin-ie8-clean",
+  "version": "0.0.1",
+  "description": "Fixes CSS minification issues in IE8 by breaking down the file into multiple lines",
+  "repository": "https://github.com/wet-boew/grunt-cssmin-ie8-clean",
+  "author": {
+    "name": "Nick Schonning",
+    "email": "",
+    "url": "https://github.com/nschonni/"
+  },
+  "contributors": [
+    {
+      "name": "Laurent Goderre",
+      "email": "",
+      "url": "https://github.com/LaurentGoderre/"
+    }
+  ],
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
